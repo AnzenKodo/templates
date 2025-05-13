@@ -8,12 +8,22 @@
         <link rel="manifest" href="">
         <link rel="alternate" type="application/rss+xml" href="" title="Template Feed"/>
 
-        <!-- Meta Tags -->
+        <!-- Meta Tag -->
         <meta charset="utf-8">
+        <!-- Block XSS Attacks -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+        <!-- No Cacheing useful for devlopment -->
+        <meta http-equiv="cache-control" content="no-cache">
+
+        <!-- Meta Name Tags -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="theme-color" content="#FFFFFF">
         <meta name="description" content="This is template project.">
         <meta name="author" content="AnzenKodo">
+        <meta name="keywords" content="website" />
+        <!-- Serach Engine Don't index page -->
+        <meta name="robots" content="noindex" />
+
 
         <!-- Meta Open Graph Tags -->
         <meta property="og:title" content="AK#Blogroll">
@@ -22,11 +32,14 @@
         <meta property="og:url" content="">
 		<meta property="og:image" content="">
 		<meta property="og:image:alt" content="Aman aka AnzenKodo logo">
-        
+
         <style>
         </style>
     </head>
     <body>
+        <noscript>
+            JavaScript is not enabled!
+        </noscript>
         <header>
             <h1></h1>
         </header>
@@ -34,5 +47,7 @@
         <footer>
             <p><small><a href="https://anzenkodo.github.io/license" target="_blank">LICENSE</a></small></p>
         </footer>
+        <script>
+        </script>
     </body>
 </html>
