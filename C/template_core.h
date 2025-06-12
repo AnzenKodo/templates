@@ -1,0 +1,4 @@
+#ifndef TEMPLATE_CORE_H
+#define TEMPLATE_CORE_H
+
+#endif // TEMPLATE_CORE_H
